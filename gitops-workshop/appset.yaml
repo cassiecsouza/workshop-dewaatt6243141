@@ -1,11 +1,11 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: frontend-appset-danfatt6243130
+  name: frontend-appset-dewaatt6243141
 spec:
   generators:
     - git:
-        repoURL: https://github.com/cassiecsouza/workshop-danfatt6243130.git
+        repoURL: https://github.com/cassiecsouza/workshop-dewaatt6243141.git
         revision: main
         files:
         - path: "gitops-workshop/cluster-config/**/config.json"
@@ -17,9 +17,9 @@ spec:
         harness.io/serviceRef: '{{.harness_service}}'
         harness.io/buildRef: '{{.image_tag}}'
     spec:
-      project: 327249bc
+      project: 2f74aca8
       source:
-        repoURL: https://github.com/cassiecsouza/workshop-danfatt6243130.git
+        repoURL: https://github.com/cassiecsouza/workshop-dewaatt6243141.git
         targetRevision: main
         path: "gitops-workshop/kustomize/frontend"
         kustomize:

@@ -175,7 +175,7 @@ After the **Build and Push** stage is complete, go to the **Security Tests** tab
 | --------------- | -------------- | ----- |
 | Repository Name | workshop                                         |       |
 | GitOps Agent    | gitops-workshop                                |  Click on Organization to find the correct agent      |
-| Git Repository URL | https://github.com/cassiecsouza/workshop-danfatt6243130.git  |     |
+| Git Repository URL | https://github.com/cassiecsouza/workshop-dewaatt6243141.git  |     |
 
 6. Click on Continue
 
@@ -193,7 +193,7 @@ After the **Build and Push** stage is complete, go to the **Security Tests** tab
 2. Click on Application Set
 
 3. Click on **+New Application Set**
-   - App Set Name: *frontend-appset-danfatt6243130*
+   - App Set Name: *frontend-appset-dewaatt6243141*
    - GitOps Agent: *gitops-workshop*
 
 4. Click **+New Service** and configure as follows:
@@ -207,14 +207,14 @@ After the **Build and Push** stage is complete, go to the **Security Tests** tab
 | Release Repo Store         |Github|                                    |
 | Connector        |gitops-workshop-github|                                    |
 | Manifest Identifier        |clusterconfig|                                    |
-| Repository                 |workshop-danfatt6243130|                                    |
+| Repository                 |workshop-dewaatt6243141|                                    |
 | Branch                     |main|                                    |
 | File Path           |gitops-workshop/cluster-config/<+env.name>/config.json|                                    |
 | * **Add Deployment Repo Manifest**         |                                                     |                                    |                                   |
 | Deployment Repo Store         |Github|                                    |
 | Connector        |gitops-workshop-github|                                    |
 | Manifest Identifier        |appset|                                    |
-| Repository                 |workshop-danfatt6243130|                                    |
+| Repository                 |workshop-dewaatt6243141|                                    |
 | Branch                     |main|                                    |
 | File Path           |gitops-workshop/appset.yaml|                                    |
 | **Add Artifact Source**          |                                                      |                                                                          |
